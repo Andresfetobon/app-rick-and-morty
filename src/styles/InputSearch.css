@@ -1,0 +1,31 @@
+.form__Submit {
+    margin: 1em;
+}
+
+.input__location {
+    width: 50%;
+    padding: 10px;
+    background-color: #76b339;
+    border-radius: 10px 0px 1px 10px;
+}
+
+.button__location {
+    padding: 10px;
+    background-color: #c2c2c2;
+}
+
+.message__error {
+    padding: 1rem;
+    color: #fff;
+  }
+
+/* responsive desing  */
+
+@media screen and (max-width: 469px) {
+    .input__location {
+        width: 70%;
+        padding: 10px;
+        background-color: #7fff00;
+        border-radius: 10px 0px 1px 10px;
+    }
+}
